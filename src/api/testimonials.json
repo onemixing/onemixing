@@ -1,0 +1,74 @@
+[
+    {
+        "name": "amygilvary",
+        "shortname": "AG",
+        "img": "img/testimonials/amygilvary.jpg",
+        "country": "United States",
+        "shortcountry": "us",
+        "content": "FANFREAKINGTASTIC!!!!"
+    },
+    {
+        "name": "ausillo",
+        "shortname": "al",
+        "img": "img/testimonials/ausillo.webp",
+        "country": "Italia",
+        "shortcountry": "it",
+        "content": "I recommend Onemixing. Work professionally. It creates a clean guitar sound, it's a great sound engineer!!"
+    },
+    {
+        "name": "facusuarez",
+        "shortname": "FS",
+        "img": "img/testimonials/facundosuarez.png",
+        "country": "Argentina",
+        "shortcountry": "ar",
+        "content": "Very fast and optimal work times."
+    },
+    {
+        "name": "andreaslang",
+        "shortname": "AS",
+        "img": "",
+        "country": "Germany",
+        "shortcountry": "de",
+        "content": "Vielen Dank für die Geduld bei meinen Wünschen und das Engagement, welches er in dieses Projekt gesteckt hat. Das Ergebnis ist super gelungen! =)."
+    },
+    {
+        "name": "magnetko",
+        "shortname": "MK",
+        "img": "img/testimonials/magnetko.webp",
+        "country": "Slovenia",
+        "shortcountry": "si",
+        "content": "Amazing 🤩"
+    },
+    {
+        "name": "musicmaestrodj",
+        "shortname": "MM",
+        "img": "img/testimonials/musicmaestrodj.webp",
+        "country": "Canada",
+        "shortcountry": "ca",
+        "content": "Great experience! they were patient with my requests and produced a well-balanced mix with solid punchy bass. I am a bass player so that is important! Looking forward to working with him again! :-)."
+    },
+    {
+        "name": "wolfvan",
+        "shortname": "WV",
+        "img": "img/testimonials/wolfvan.webp",
+        "country": "United States",
+        "shortcountry": "us",
+        "content": "Very happy with the master! Already published on YouTube and credited you. Thank you very much!."
+    },
+    {
+        "name": "itsmehimsoa",
+        "shortname": "ih",
+        "img": "img/testimonials/itsmehimsoa.webp",
+        "country": "United States",
+        "shortcountry": "us",
+        "content": "EXCELENTE TRABAJO. MUY PROFESIONAL Y ENTREGADO A SU FUNCIÓN, 100000% RECOMMENDED. VERY AND KIND UNDERSTANDING PERSON. VOLVEREMOS A TRABAJAR PRONTITO! 🫡"
+    },
+    {
+        "name": "jonahkornspun",
+        "shortname": "ih",
+        "img": "img/testimonials/johan.webp",
+        "country": "United States",
+        "shortcountry": "us",
+        "content": "What an amazing job! I’m working on cover songs to add to my repeteur as demos. onemixing knocked it out of the park!."
+    }
+]
