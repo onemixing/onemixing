@@ -37,11 +37,11 @@ export default function Component() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="#"
+                    href="/contact"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
-                    Get a Quote
+                    Start now
                   </Link>
                 </div>
               </div>
@@ -102,9 +102,9 @@ export default function Component() {
                 </div>
                 <div className="rounded-lg bg-muted p-4 text-center">
                   <HeadphonesIcon className="mx-auto h-8 w-8" />
-                  <h3 className="mt-2 text-lg font-bold">Audio Restoration</h3>
+                  <h3 className="mt-2 text-lg font-bold">Production</h3>
                   <p className="text-muted-foreground">
-                    Revive old recordings and bring them back to life.
+                    Bring your ideas to life.
                   </p>
                 </div>
               </div>
@@ -184,33 +184,9 @@ export default function Component() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-              {Array.from(songsportfolio).map((item, index) => (
-                <div
-                  className="rounded-lg overflow-hidden group relative"
-                  key={index}
-                >
-                  <img
-                    src={item.img}
-                    alt={item.title}
-                    width={400}
-                    height={400}
-                    className="w-full h-auto object-cover"
-                    style={{ aspectRatio: "400/400", objectFit: "cover" }}
-                  />
-                  <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 transition-opacity group-hover:opacity-100">
-                    <a href={item.playlink} target="_blank">
-                      <Button variant="link" size="icon">
-                        <PlayIcon className="h-8 w-8 text-white" />
-                        <span className="sr-only">Play</span>
-                      </Button>
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="container mx-auto flex items-center justify-center w-full">
-              <Link href="/portfolio"><Button>See more</Button></Link>
+            <iframe className="rounded w-full h-96 mt-4" src="https://open.spotify.com/embed/playlist/5RfTSbmtqf83FFo9VJPmR5?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div className="container mx-auto flex items-center justify-center w-full mt-4">
+              <a href="https://open.spotify.com/playlist/5RfTSbmtqf83FFo9VJPmR5" target="_blank"><Button>See more</Button></a>
             </div>
           </div>
         </section>
