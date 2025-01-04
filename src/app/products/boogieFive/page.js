@@ -50,7 +50,7 @@ export default function Home() {
         <p className="relative text-lg sm:text-xl md:text-2xl text-white/80 max-w-2xl text-center mb-12">
           The famous Mesa Boogie Five-Band Graphic EQ now on a plug-in!
         </p>
-        <div className="relative flex flex-col sm:flex-row gap-4">
+        <div className="relative flex flex-col sm:flex-row gap-4 items-center">
           <Link href={installerFile} download>
             <Button size="lg" className="text-lg px-8 py-6">
               Download beta
