@@ -108,9 +108,6 @@ export default function Home() {
       </section>
 
       <section className="relative bg-muted py-24">
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[radial-gradient(white_1px,transparent_1px)] [background-size:32px_32px] opacity-10" />
-        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
