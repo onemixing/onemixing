@@ -4,18 +4,18 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarImage, AvatarFallback } from "../components/ui/avatar";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
-} from "@/components/ui/carousel";
+} from "../components/ui/carousel";
 import Flag from "react-world-flags";
 import testimonials from "../api/testimonials.json";
 import songsportfolio from "../api/songsportfolio.json";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import Image from "next/image";
 
 export default function Component() {
