@@ -23,7 +23,7 @@ export const metadata = {
     },
   };
 export default function Home() {
-  const installerFile = "/download/boogieFive.vst3";
+  const installerFile = "/download/boogieFive.zip";
   const manualPDF = "/download/boogieFive User manual.pdf";
   return (
     <main className="min-h-screen bg-black text-white">
