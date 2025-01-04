@@ -23,7 +23,7 @@ export const metadata = {
     },
   };
 export default function Home() {
-  const installerFile = "/download/boogieFive by Onemixing.exe";
+  const installerFile = "/download/boogieFive.vst3";
   const manualPDF = "/download/boogieFive User manual.pdf";
   return (
     <main className="min-h-screen bg-black text-white">
