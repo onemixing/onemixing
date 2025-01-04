@@ -23,7 +23,7 @@ export const metadata = {
     },
   };
 export default function Home() {
-  const installerFile = "/download/boogieFive.zip";
+  const installerFile = "https://drive.google.com/drive/folders/1vcAnw4MxegHQcZHWrFz9lOyS1dzqzYj6?usp=sharing";
   const manualPDF = "/download/boogieFive User manual.pdf";
   return (
     <main className="min-h-screen bg-black text-white">
@@ -51,7 +51,7 @@ export default function Home() {
           The famous Mesa Boogie Five-Band Graphic EQ now on a plug-in!
         </p>
         <div className="relative flex flex-col sm:flex-row gap-4 items-center">
-          <Link href="https://drive.google.com/drive/folders/1vcAnw4MxegHQcZHWrFz9lOyS1dzqzYj6?usp=sharing" target="_blank">
+          <Link href={installerFile} target="_blank">
             <Button size="lg" className="text-lg px-8 py-6">
               Download beta
             </Button>
@@ -147,7 +147,7 @@ export default function Home() {
               <div className="space-y-6">
                 <p className="text-5xl font-bold">$0</p>
                 <div className="space-y-4">
-                  <Link href={installerFile} download>
+                  <Link href={installerFile} target="_blank">
                     <Button className="w-full h-12 text-lg">
                       download beta
                     </Button>
