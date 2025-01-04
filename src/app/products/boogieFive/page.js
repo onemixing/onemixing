@@ -51,7 +51,7 @@ export default function Home() {
           The famous Mesa Boogie Five-Band Graphic EQ now on a plug-in!
         </p>
         <div className="relative flex flex-col sm:flex-row gap-4 items-center">
-          <Link href={installerFile} download>
+          <Link href="https://drive.google.com/drive/folders/1vcAnw4MxegHQcZHWrFz9lOyS1dzqzYj6?usp=sharing">
             <Button size="lg" className="text-lg px-8 py-6">
               Download beta
             </Button>

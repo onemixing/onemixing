@@ -1,0 +1,1 @@
+Install the "boogieFive by Onemixing" or just put "boogieFive.vst3" on C:\Program Files\Common Files\VST3
