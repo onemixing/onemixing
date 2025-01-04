@@ -23,7 +23,7 @@ export const metadata = {
     },
   };
 export default function Home() {
-  const installerFile = "https://drive.google.com/drive/folders/1vcAnw4MxegHQcZHWrFz9lOyS1dzqzYj6?usp=sharing";
+  const installerFile = "https://app.gumroad.com/checkout?product=ngmred&quantity=1&price=0";
   const manualPDF = "/download/boogieFive User manual.pdf";
   return (
     <main className="min-h-screen bg-black text-white">
