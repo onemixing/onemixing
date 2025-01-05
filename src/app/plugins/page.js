@@ -10,7 +10,7 @@ const audioPlugins = [
   {
     name: "boogieFive",
     description: "Famous Mesa Boogie Five-Band Graphic EQ",
-    imageUrl: "/img/boogieFive/bf.png",
+    imageUrl: "/img/boogieFive/bf.webp",
     category: "EQ",
     goToLink: "products/boogieFive"
   }
